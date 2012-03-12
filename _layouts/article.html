@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen" charset="utf-8">
 	<link rel="stylesheet" href="/css/master.css" type="text/css" media="screen" charset="utf-8">
-	<title>Hi, I'm Simon Thulbourn</title>
+	<title>{{ page.title }}</title>
 </head>
 <body>
 	<div id="container">
@@ -13,12 +13,17 @@
 			<h2>I'm a software engineer, a runner, and (hopefully) a technical writer.</h2>
 		</header>
 		
-		<section id="blurb">
-	<p>I also have a <a href="http://twitter.com/sthulbourn" title="@sthulbourn on Twitter">twitter</a> account, you should follow me.</p>
-	
-	<p>I was the first person to become a <a href="http://facebook.com/sthulbourn" title="Simon Thulbourn on Facebook">facebook</a> zombie, you can <a href="not_dead.html" title="How I became a Facebook zombie">read about that if you want</a>, but you might have read about it somewhere else.</p>
-</section>
-		
+		<section id="content">
+			<header>
+				<h3>{{ page.title }}</h3>
+				<h4><time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>{{ page.date | date_to_string }}</time></h4>
+			</header>
+			
+			<article>
+				{{ content }}
+			</article>
+		</section>
+
 		<footer>
 			<p>You can <a href="mailto:website _at_ thulbourn _dot_ com" title="Email me">email me</a> if you want to get in contact, <a href="http://twitter.com/sthulbourn" alt="@sthulbourn on Twitter">twitter</a> is fine too.</p>
 		</footer>
