@@ -9,6 +9,7 @@ title: Hi, I'm Simon Thulbourn
 	<p>I was the first person to become a <a href="http://facebook.com/sthulbourn" title="Simon Thulbourn on Facebook">facebook</a> zombie, you can <a href="not_dead.html" title="How I became a Facebook zombie">read about that if you want</a>, but you might have read about it somewhere else.</p>
 </section>
 
+{% if site.posts %}
 <section>
 	<heading>Articles</heading>
 	<ul id="articles">
@@ -17,3 +18,4 @@ title: Hi, I'm Simon Thulbourn
 		{% endfor %}
 	</ul>
  </section>
+ {% if user %}
