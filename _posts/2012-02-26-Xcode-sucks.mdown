@@ -1,0 +1,14 @@
+---
+layout: article
+title: Xcode Sucks...
+published: false
+---
+
+I've had it with Xcode... How could any sane developer not? I've been using Xcode for the last year now... Xcode 4
+looks nice... it has a couple of visual quirks here and there, but overall, it's great to look at.
+
+...Except it crashes... **A LOT**! How does Apple expect developers of it's ecosystem to work with tools that don't work?
+
+Xcode would be a great place to spend all of your time if it wasn't for the crashes and the other obvious bugs that make
+you want to smash your head through your (expensive) MacBook Pro screen. The things that bug (Yes, I love obvious puns)
+are probably easy to fix for Apple... like the disappearing storyboard when you change tabs for a moment.
