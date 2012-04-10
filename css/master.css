@@ -185,13 +185,7 @@ img {
  * Media Queries
  */
 
-@media screen and (max-width: 320px) and (min-width: 320px) {
-	div#container {
-		margin: 20px;
-		width: 300px
-	}
-	
-	* { max-width: 300px; }
+@media screen and (max-device-width: 320px) {
 }
 
 /*
